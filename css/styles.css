@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100%;
+    border: 10px solid #2b81ac;
+    background-color: #3399cc;
+    margin: 0px;
+    padding: 5px;
+    color: #fff;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+    width: 96%;
+    align-content:center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 22px;
+    padding: 20px;
+}
+
+footer {
+    padding: 20px;
+}
+
+ul {
+    font-size: 0px;
+}
+
+p {
+    opacity: .6;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    align-items: baseline;
+    border: 5px solid #fff;
+    transition: all .1s ease-in;
+}
+
+ul:hover > li {
+    opacity: .5;
+}
+
+ul li:hover {
+    opacity: 1;
+}
+
+ul li:active {
+    background: #2b81ac;
+    opacity: .8;
+}
+
+.li1, .li9 {
+    width: 50%;
+    padding: 5px;
+}
+
+.li2, .li3, .li4, .li5, .li6, .li7, .li8, .li10 {
+    width: 25%;
+    padding: 5px;
+}
+
+.li11 {
+    width: 100%;
+    padding: 5px;
+    background: #666699;
+}
+
+.li2{
+    background: #33CCCC;
+}
+.li3{
+    background: #996699;
+}
+.li4{
+    background: #C24747;
+}
+.li5{
+    background: #E2674A;
+}
+.li6{
+    background: #FFCC66;
+}
+.li7{
+    background: #99CC99;
+}
+.li8{
+    background: #669999;
+}
+.li9{
+    background: #CC6699;
+}
+.li10{
+    background: #339966;
+}
+
+.wi {
+    font-size: 25px;
+}
+
+
+
+
+
+/* двойные рамка */
+/* выравнивание всего по одной линии */
+/* отступ сверху у текста */
+/* уменьшить значок в header */
