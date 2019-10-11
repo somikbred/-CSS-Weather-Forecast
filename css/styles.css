@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
-
 * {
     box-sizing: border-box;
 }
 
 html {
     height: 100%;
-    font-family: 'Poppins', sans-serif;
+    font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
 }
 
 body {
@@ -111,7 +109,7 @@ ul li:active {
 }
 
 .wi {
-    font-size: 25px;
+    font-size: 19px;
 }
 
 
