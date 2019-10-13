@@ -9,7 +9,7 @@ html {
 
 body {
     min-height: 100%;
-    border: 10px solid #2b81ac;
+    border: 15px solid #2b81ac;
     background-color: #3399cc;
     margin: 0px;
     padding: 5px;
@@ -18,37 +18,47 @@ body {
 
 .container {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 700px;
     width: 96%;
-    align-content:center;
+    align-content:left;
+
 }
 
 h1 {
     margin: 0;
     font-size: 22px;
-    padding: 20px;
+    padding: 20px 0 20px 0;
 }
 
 footer {
-    padding: 20px;
-}
-
-ul {
-    font-size: 0px;
+    padding: 20px 0 0 0;
 }
 
 p {
+    margin: 0;
+    padding: 10px;
+}
+
+ul {
+    padding: 0;
+    font-size: 0px;
+    border: 2px solid #fff;
+}
+
+.temp {
     opacity: .6;
 }
 
 ul li {
+    padding: 10px;
     list-style: none;
     display: inline-block;
     font-size: 18px;
     text-align: center;
     align-items: baseline;
-    border: 5px solid #fff;
+    border: 2px solid #fff;
     transition: all .1s ease-in;
+    min-height: 100px;
 }
 
 ul:hover > li {
@@ -64,48 +74,55 @@ ul li:active {
     opacity: .8;
 }
 
-.li1, .li9 {
+.width-mid {
     width: 50%;
     padding: 5px;
 }
 
-.li2, .li3, .li4, .li5, .li6, .li7, .li8, .li10 {
+.width-min {
     width: 25%;
     padding: 5px;
 }
 
-.li11 {
+.width-max {
     width: 100%;
     padding: 5px;
-    background: #666699;
 }
 
-.li2{
+.blue {
+    background: #3399cc;
+}
+
+.birch{
     background: #33CCCC;
 }
-.li3{
+.purple{
     background: #996699;
 }
-.li4{
+.red{
     background: #C24747;
 }
-.li5{
+.orange{
     background: #E2674A;
 }
-.li6{
+.yellow{
     background: #FFCC66;
 }
-.li7{
+.light-green{
     background: #99CC99;
 }
-.li8{
+.gray{
     background: #669999;
 }
-.li9{
+.pink{
     background: #CC6699;
 }
-.li10{
+.green{
     background: #339966;
+}
+
+.violets {
+    background: #666699;
 }
 
 .wi {
@@ -116,7 +133,6 @@ ul li:active {
 
 
 
-/* двойные рамка */
-/* выравнивание всего по одной линии */
-/* отступ сверху у текста */
+
 /* уменьшить значок в header */
+/* некрасиво выделсяется*/
