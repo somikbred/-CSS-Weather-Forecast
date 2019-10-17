@@ -43,6 +43,7 @@ ul {
     padding: 0;
     font-size: 0px;
     border: 2px solid #fff;
+    background: #fff;
 }
 
 .temp {
@@ -76,17 +77,14 @@ ul li:active {
 
 .width-mid {
     width: 50%;
-    padding: 5px;
 }
 
 .width-min {
     width: 25%;
-    padding: 5px;
 }
 
 .width-max {
     width: 100%;
-    padding: 5px;
 }
 
 .blue {
@@ -130,9 +128,3 @@ ul li:active {
 }
 
 
-
-
-
-
-/* уменьшить значок в header */
-/* некрасиво выделсяется*/
